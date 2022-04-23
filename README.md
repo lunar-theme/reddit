@@ -16,7 +16,7 @@ soon™️
 
 **For this style to work properly, you need to uncheck "_allow subreddits to show me custom themes_" in your [preferences](https://old.reddit.com/prefs)!**
 
-[Click here to install spacetube](https://github.com/lunar-theme/reddit/raw/main/astreddit.user.css)
+[Click here to install Lunar for Reddit](https://github.com/lunar-theme/reddit/raw/main/astreddit.user.css)
 
 ## 📩 License
 
