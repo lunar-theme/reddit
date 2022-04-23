@@ -10,6 +10,11 @@
 soon™️
 
 ## ❗ Prerequisites
+
+You need to be using old reddit, to be able to do so follow these instructions:
+
+*Go to your user settings (drop down in the top right, click user settings), and at the very bottom should be a toggle that says "Opt out of the redesign", click that and you should be using old reddit!.*
+
 [Stylus browser extension](https://github.com/openstyles/stylus#releases)
 
 ## 💻 Installation
