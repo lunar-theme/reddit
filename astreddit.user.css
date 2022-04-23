@@ -1,0 +1,344 @@
+/* ==UserStyle==
+@name         Lunar for Reddit
+@description  🐙 A space-inspired theme for Reddit
+@namespace    https://github.com/lunar-theme/reddit
+@homepageURL  https://github.com/lunar-theme/reddit
+@supportURL   https://github.com/lunar-theme/reddit/issues
+@updateURL    https://github.com/lunar-theme/reddit/raw/main/astreddit.user.css
+@author       sheep <hi@sheepdev.xyz> (https://sheepdev.xyz/)
+@version      1.0.0
+@license      GPL-3.0
+==/UserStyle== */
+
+
+@-moz-document domain("www.reddit.com"), domain("old.reddit.com") {
+
+:root {
+    --bg: #161616;
+    --bg-light: #202020;
+    --bg-lighter: #252525; 
+    --bg-lightest: #303030;
+    --bg-transparent: #161616f1;
+    --accent: #3281ea;
+    --accent-light: #0284e8;
+    --accent-lighter: #02a3e8;
+    --accent-lightest: #02bbe8;
+    --text-color: #f3f3f3;
+    --white: #d4d7db;
+    --green: #a3be8c;
+    --red: #B10C0C;
+} 
+
+/* This part of the code was taken from Jorengarenar's Reddit Old Redesigned Dark */
+
+#header-img {
+          background-image: url(https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png) !important;
+          background-position: center !important;
+          background-size: cover;
+          height: 36px !important;
+          margin: 10px 16px !important;
+          width: 36px !important;
+}
+
+#header {
+        background: var(--bg-light);
+        border-bottom: 2px solid var(--bg-light);
+        display: flex;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0;
+}
+
+#sr-header-area {
+    display: none;
+}
+
+
+#header-bottom-left {
+    align-items: center;
+    display: flex;
+    height: 56px;
+}
+
+#header-img {
+    background-image: url(https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png) !important;
+    background-position: center !important;
+    background-size: cover;
+    height: 36px !important;
+    margin: 4px 16px;
+    width: 36px !important;
+}
+
+#header-img:hover {
+    opacity: 0.8;
+}
+
+.thumbnail {
+    background-color: var(--gray-2);
+    flex: 0 0 auto;
+    height: 78px;
+    margin-right: 16px;
+    opacity: 0.5;
+    width: 140px;
+}
+
+.outbound {
+            background-position: 0 -470px;
+}
+
+:not(.outbound) {
+            background-position: 0 -906px;
+          }
+
+          img {
+            height: auto;
+            width: inherit;
+          }
+
+/* Content */
+
+body, .content {
+    background: var(--bg)
+}
+
+.flairrichtext {
+    border-radius: 20px;
+}
+
+.flaircolordark {
+    color: var(--text-color)
+}
+
+.expando-button.collapsed.video {
+    display: none;
+}
+
+/* Actually, fuck the Grippy for now */
+
+body.with-listing-chooser .listing-chooser .grippy, body.with-listing-chooser.listing-chooser-collapsed .listing-chooser {
+    display: none;
+}
+
+/* Accents */
+
+a, .tagline a, .search-result-meta a {
+    color: var(--accent)
+}
+
+.thing .title {
+    color: var(--accent)
+}
+
+.thing .title:visited {
+    color: var(--accent-light)
+}
+
+/* Margins and spacing */
+
+.top-matter {
+    margin-left: 10px;
+}
+
+.thing {
+    margin-bottom: 20px !important;
+}
+
+/* Text */
+
+.pretty-form p, label, h6, th {
+    color: var(--text-color)
+}
+
+.pagename {
+    color: var(--text-color);
+    text-transform: none;
+    font-variant: none;
+}
+
+.tagline, .search-result-meta, .domain a {
+    color: var(--text-color);
+}
+
+.entry .buttons li a, .domain {
+    color: var(--text-color);
+    opacity: 85%;    
+}
+
+
+    /* Right sidebar */
+
+.side {
+   background: var(--bg-light);
+        border-bottom-left-radius: 20px;
+        margin: 0;
+        padding: 16px;
+      }
+
+.morelink { /* "Submit a new..." buttons */
+    background: var(--bg-lighter);
+    border-radius: 15px;
+    border: none;
+    text-transform: none;
+}
+
+.morelink .nub, .sidebox .spacer {
+    display: none;
+}
+
+.morelink:hover a {
+    background: var(--bg-lightest);
+    border-radius: 15px;
+    border: none;
+}
+
+/* Annoyances */
+
+.premium-banner {
+    display: none;
+}
+
+/* Stuff */
+
+.morelink a {
+    color: var(--text-color)
+}
+
+.usertext.grayed .usertext-body {
+    background: var(--bg);
+}
+
+/* Right Sidebar - Search */
+
+#search input[type="text"] {
+    background: var(--bg-lightest);
+    color: var(--text-color);
+    border: none;
+    border-radius: 20px;
+}
+
+.infobar {
+    background: var(--accent);
+    color: var(--text-color);
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+#search_showmore {
+    color: var(--text-color) !important;
+}
+
+/* Bottom right header */
+
+#header-bottom-right {
+    background: var(--bg-light)
+}
+
+/* tab menu */
+
+.tabmenu li.selected a {
+    background: var(--accent);
+    border-radius: 5px;
+    color: var(--text-color);
+    border: none;
+}
+
+.tabmenu li a {
+    background: var(--bg-light);
+    border-radius: 5px;
+    color: var(--text-color);
+    border: none;
+}
+
+.beta-hint a {
+    display: none;
+}
+
+/* Subreddit menu */
+.titlebox form.toggle, .leavemoderator {
+    background: var(--bg-light)
+}
+
+.sidecontentbox .content {
+    background: var(--bg-light);
+    border: none;
+}
+
+.sidecontentbox .title h1 {
+    color: var(--text-color);
+    text-transform: none;
+}
+
+/* Flairs */
+
+.flair, .linkflairlabel {
+    background: var(--accent);
+    color: var(--text-color);
+    border: none;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background: var(--bg-light);
+    border: none;
+    border-radius: 20px;
+}
+
+.flat-vert.title {
+    color: var(--text-color);
+}
+
+.footer .col {
+    border: none;
+}
+
+/* A fuckton of text shit */
+
+.pagename {
+    margin-top: 3px;
+}
+
+time, .score, .pagename a, .linkinfo .shortlink, .md-container-small .md h1, .side .md h1, .md-container-small .md h2, .side .md h2, .md-container-small .md .-text, .side .md .-text, .md-container-small .md p, .side .md p, .md-container-small .md pre > code, .side .md pre > code, .md-container-small .md th, .side .md th, .md-container-small .md td, .side .md td, .md-container-small .md li, .side .md li, .titlebox h1 a, span, .md-container-small .md h5, .side .md h5, .md-container-small .md h6, .side .md h6, .md > :last-child, .md .-cells > :last-child, .md .-lists > :last-child, .md .-blocks > :last-child, .md .-headers > :last-child, .md h1 > :last-child, .md h2 > :last-child, .md h3 > :last-child, .md h4 > :last-child, .md h5 > :last-child, .md h6 > :last-child, .md th > :last-child, .md td > :last-child, .md ul > :last-child, .md ol > :last-child, .md .-lists > :last-child, .md pre > :last-child, .md blockquote > :last-child, .md table > :last-child, .md p > :last-child, .md ul > :last-child, .md ol > :last-child, li, .app-description {
+    color: var(--text-color)
+}
+
+/* Link info */
+
+.linkinfo {
+    background: var(--bg-lighter);
+    border: none;
+    border-radius: 20px;
+}
+
+.linkinfo .shortlink input {
+    background: var(--bg-lighter);
+    border: none;
+    color: var(--text-color);
+}
+
+/* Comment area */
+
+textarea {
+    background: var(--bg-light);
+    color: var(--text-color);
+    border: none;
+}
+
+.save {
+    background: var(--accent);
+    color: var(--text-color);
+    border: none;
+    border-radius: 20px;
+}
+
+/* Preferences */
+
+.gold-accent {
+    display: none !important;
+}
+
+.app-scope {
+    background: var(--bg-light)
+    }
+}
