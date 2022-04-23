@@ -16,9 +16,9 @@ soon™️
 
 **For this style to work properly, you need to uncheck "_allow subreddits to show me custom themes_" in your [preferences](https://old.reddit.com/prefs)!**
 
-[Click here to install spacetube](https://github.com/lunar-theme/youtube/raw/main/lunartube.user.css)
+[Click here to install spacetube](https://github.com/lunar-theme/reddit/raw/main/astreddit.user.css)
 
 ## 📩 License
 
 Copyright © 2021 [sheepdev](https://sheepdev.xyz/)<br />
-This project is licensed under the [CC-BY-4.0](https://github.com/lunar-theme/spacetube/blob/main/LICENSE) license.
+This project is licensed under the [CC-BY-4.0](https://github.com/lunar-theme/reddit/blob/main/LICENSE) license.
