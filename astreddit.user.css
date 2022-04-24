@@ -340,5 +340,11 @@ textarea {
 
 .app-scope {
     background: var(--bg-light)
+}
+
+/* Post */
+.link .usertext-body .md {
+    background: var(--bg);
+    border: none;
     }
 }
