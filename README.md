@@ -25,5 +25,5 @@ You need to be using old reddit, to be able to do so follow these instructions:
 
 ## 📩 License
 
-Copyright © 2021 [sheepdev](https://sheepdev.xyz/)<br />
-This project is licensed under the [CC-BY-4.0](https://github.com/lunar-theme/reddit/blob/main/LICENSE) license.
+Copyright © 2022 [sheepdev](https://sheepdev.xyz/)<br />
+This project is licensed under the [GPL-3.0](https://github.com/lunar-theme/reddit/blob/main/LICENSE) license.
