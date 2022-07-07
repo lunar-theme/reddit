@@ -383,5 +383,72 @@ textarea {
 
 .flat-list li.selected a {
     color: var(--accent-lighter)
-	}
+}
+
+/* Links in posts */
+	
+.md a {
+	color: var(--tropo);
+}
+	
+.md a:hover {
+	color: var(--strato)
+}
+	
+	/* User text */
+	
+.usertext.border .usertext-body {
+	background: var(--inner-core);
+}
+	
+.infobar > p > a {
+	color: var(--text)
+}
+	
+/* Archived */
+	
+.archived-infobar {
+	background: var(--mantle);
+	border: none;
+	border-radius: 20px;
+}
+	
+/* Pinnable video content */
+	
+	
+.pinnable-content.pinned {
+	background-color: var(--outer-core) !important;	    
+}
+	
+	/* Code */
+	
+.new-comment .md :not(pre) > code, .link .md :not(pre) > code, .usertext.border .md :not(pre) > code, .new-comment .md pre, .link .md pre, .usertext.border .md pre {
+	background: var(--outer-core)
+}
+	
+	/* Profile tooltip */
+	
+.author-tooltip {
+	    background: var(--mantle);
+	    border-radius: 20px;
+	    border: none;
+}
+	
+.author-tooltip__head {
+	    background: var(--outer-core);
+	    border-radius: 20px;
+	    border: none;
+}
+	
+.author-tooltip.hover-bubble.anchor-top-left::before, .author-tooltip.hover-bubble.anchor-top-right::before {
+	    border-bottom-color: var(--outer-core) !important;
+}
+	
+.author-tooltip__head a, .author-tooltip__credentials-list strong {
+	    color: var(--text)
+}
+	
+.author-tooltip__link-list a {
+	    color: var(--tropo)
+    }
 }
